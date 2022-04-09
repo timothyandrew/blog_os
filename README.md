@@ -1,0 +1,2 @@
+- https://os.phil-opp.com/
+- https://0xc0d1.com/learning/writing-an-os-in-rust
