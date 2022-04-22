@@ -1,8 +1,13 @@
-cargo-features = ["edition2021"]
-
 [package]
 name = "blog_os"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bootloader = "0.9.22"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
